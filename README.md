@@ -34,3 +34,10 @@ The motion platform supports the following degrees of freedom:
 Yaw motion is intentionally excluded due to the intended external controller only being capable of controlling 4 actuators simultaneously.
 
 ---
+## GitHub structure
+
+In the folder **Matlab scripts** the full simulation of the Motion-Cueing-Algorithm with the Inverse Kinematics Block can be found as well as the recorded telemetry data and a script to plot those.
+
+When running the ControlSystem.slx file, run SimParam.m before to load the simulation parameters into the workspace.
+
+In the folder **Platform Animation** different python scripts can be found for both platform animation, telemetry data animation and a side-by-side animation of platform and data.
